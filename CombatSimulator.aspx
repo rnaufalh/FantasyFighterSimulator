@@ -51,7 +51,7 @@
 
             <div class="text-center">
                 <asp:Button ID="PlayerAttackButton" CssClass="btn btn-danger btn-lrg mx-3" runat="server" Enabled="False" OnClick="PlayerAttackButton_Click" Text="Hit Opponent" />
-                <asp:Button ID="PlayerSpecialButton" CssClass="btn btn-warning btn-lrg mx-3" runat="server" Enabled="False" OnClick="PlayerSpecialButton_Click" Text="Use Special Skill" />
+                <asp:Button ID="PlayerSpecialButton" CssClass="btn btn-warning text-white btn-lrg mx-3" runat="server" Enabled="False" OnClick="PlayerSpecialButton_Click" Text="Use Special Skill" />
                 <asp:Button ID="PlayerDefensiveButton" CssClass="btn btn-success btn-lrg mx-3" runat="server" Enabled="False" OnClick="PlayerDefensiveButton_Click" Text="Use Defensive Skill" />
 
                 <asp:Button ID="ShowInfo" CssClass="btn btn-info btn-lrg mx-3" runat="server" Enabled="False" Text="Show Fighters Info" OnClick="ShowInfo_Click" />
