@@ -14,19 +14,19 @@ From the Character Search page, users can select one of the rows shown to see mo
 **Character Data:**
 - Name
 - Job Type
-- Health Points (HP)
-- Ability Points (AP)
-- Speed
+- Health Points (HP): To indicate whether the character is still able to fight or not (combat ends when one character's HP reaches 0)
+- Ability Points (AP): To show how much skills that the character can use
+- Speed: To indicate who starts first in a combat (the one with the higher number will go first)
 
 **Weapon Data:**
 - Name
 - Weapon Type
-- Damage Dealt
+- Damage Dealt: Show how much damage the weapon can deal
 
 **Armor Data:**
 - Name
 - Armor Type
-- Armor Ratings/Points
+- Armor Defense: Show how much damage the armor can take
 
 ![Character Details Page 1](Screenshots/CharacterDetails1.PNG)
 ![Character Details Page 2](Screenshots/CharacterDetails2.PNG)
